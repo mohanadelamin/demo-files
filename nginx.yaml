@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
  name: graboid
- annotations:
-   paloaltonetworks.com/firewall: pan-fw
 spec:
  replicas: 1
  selector:
